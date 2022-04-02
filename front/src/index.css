@@ -1,0 +1,645 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+  /* background-color: black ; */
+ 
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* #nav-dropdown-dark-example{
+  width:200px;
+  background-color:black;
+} */
+
+.App{
+  display: grid;
+
+  grid-template-columns: 25% auto 25%;
+  
+
+  grid-template-areas: "App1 App1 App1 "
+                       "App2 App2 App2 "   
+                       "App4 App4 App3 "
+                       /* "App5 App7 App6 " */
+                       "App5 App7 App3 "
+                       "App5 App7 App8 "
+                       "App5 App9 App8 "
+                       "App5 App10 App11 "
+                       "App12 App12 App12 "
+                       "App13 App13 App13 "
+                       
+                      
+                      
+                       
+                     
+                    ;
+                    /* border:2px solid red; */
+}
+
+.App1{
+  grid-area: App1;
+  border:1px solid black;
+  height:60px;
+}
+.App2{
+  grid-area: App2;
+  border:1px solid black;
+  height:50px;
+
+}
+
+
+.App3{
+  grid-area: App3;
+  border:1px solid black;
+  /* height:420px; */
+  
+}
+.App4{
+  grid-area: App4;
+  border:1px solid black;
+height: 78px;
+/* margin-top:9px; */
+}
+.App5{
+  grid-area: App5;
+  border:1px solid black;
+  /* height:420px; */
+  /* margin-top: -105px; */
+  /* margin-top:-40px; */
+}
+.App6{
+  grid-area: App6;
+  border:1px solid black;
+  height:50px;
+  margin-top:-86px;
+  /* margin-top: -105px; */
+}
+.App7{
+  grid-area: App7;
+  height: 360px;
+  border:1px solid black;
+  /* margin-top:-123px; */
+}
+
+.App8{
+  grid-area: App8;
+  border:1px solid black;
+  height:420px;
+ 
+}
+.App9{
+  grid-area: App9;
+  border:1px solid black;
+  height:350px;
+  margin-top: -400px;
+
+}
+.App10{
+  grid-area: App10;
+  border:1px solid black;
+  margin-top:-50px;
+  /* height:400px; */
+
+}
+/*  */
+.App11{
+  grid-area: App11;
+  border:1px solid black;
+  /* height:210px; */
+ 
+}
+.App12{
+  grid-area: App12;
+  border:1px solid black;
+  height:190px;
+ 
+}
+.App13{
+  grid-area: App13;
+  border:1px solid black;
+  height:50px;
+ 
+}
+
+
+
+a{
+  text-decoration:none;
+}
+label{
+  font-size: 14px;
+}
+
+ h5 {
+  font-size:18px;
+  margin-left: 3px;
+  }
+span{
+  font-size:12px;
+  margin-left: 10px;
+}
+
+li{
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header ul li{
+ 
+  font-size:16px;
+  
+}
+#fi{
+  margin-left: 10px;
+}
+
+#li{
+ 
+ 
+  margin-left: -10px;
+}
+
+.show{
+  position: relative;
+}
+
+#en{
+  margin-right: -25px;
+}
+
+#usd{
+  margin-left: -25px;
+}
+
+
+#basic-nav-dropdown:hover{
+  color:rgb(235, 212, 13)
+}
+#basic-nav-dropdown{
+  color:black;
+}
+
+.first-menu{
+  display:flex;
+  flex-direction:row;
+  width:1000px;
+  
+ 
+  flex-wrap: wrap;
+
+ 
+}
+.first-menu div{
+  cursor:pointer;
+ margin:5px 5px 5px 20px;
+ width:300px;
+ height:60px;
+ 
+  border-radius: 5px;
+
+}
+.App a{
+  text-decoration: none;
+  color:black;
+
+}
+.first-menu div:hover{
+  background-color: rgb(206, 205, 205);
+  
+}
+
+
+.hello{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width:300px;
+
+  justify-content:space-between;
+ 
+
+}
+
+.nav-dropdown-dark-example {
+  position: relative;
+}
+
+
+
+
+
+
+
+
+ .second_menu {
+
+width:370px;
+display:flex;
+flex-direction: column;
+justify-content:space-around;
+flex-wrap: wrap;
+  
+}
+
+.second-menu1{
+  width:350px;
+ 
+  margin:7px;
+  align-items:center;
+
+  font-size:2px;
+  border-radius: 5px;
+ 
+
+}
+
+.second-menu1:hover{
+background-color: gainsboro;
+ 
+
+}
+
+.third_menu{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:537px;
+  /* border:2px solid red; */
+  
+  
+}
+.third_menu1{
+ 
+  width:250px;
+  /* border:2px solid yellow; */
+  margin:8px;
+  border-radius:5px;
+}
+.third_menu1:hover{
+  background-color:gainsboro;
+}
+
+.nav{
+  margin-left: 50px;
+}
+
+.navline{
+  margin-top: 5px;
+} 
+
+
+#acordheader{
+  position: left
+  ;
+  /* border:2px solid greenyellow; */
+  text-align: right;
+  background-color: white;
+}
+
+
+#divmenu{
+ 
+  margin-top:0px;
+  background-color: gray;
+
+
+}
+
+#divmenu ul li{
+  padding-left:40px;
+}
+#chart{
+  width:600px;
+}
+
+
+#first{
+  height: 40px;
+}
+#first1{
+  margin-top:-50px;
+}
+
+#first1 ul li{
+  padding-left:40px;
+}
+
+
+#first  ul li{
+  /* border:2px solid black; */
+  margin-top: -200px;
+  font-size:10px;
+  height:30px;
+ 
+
+}
+
+
+.Price {
+  /* width: 100%; */
+  /* height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top:50px; */
+}
+  
+.Price table {
+
+  width: 310px;
+  height: 200px;
+}
+  
+th {
+  border-bottom: 1px solid black;
+ 
+}
+  
+td {
+  text-align: left;
+padding-left: 10px;
+
+}
+
+/* limit */
+#pane{
+  width:600px;
+}
+.limit{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* width: 600px; */
+  justify-content: space-around;
+  margin-top: -30px;
+}
+.limit1{
+
+width:250px;
+margin-top:3px;
+height:40px
+}
+#lab{
+  margin-left: 170px;
+  margin-top: 10px;
+  font-size:15px;
+  font-weight:bold;
+}
+#lab1{
+  margin-left: 110px;
+  font-size:15px;
+  font-weight:bold;
+}
+#lab2{
+  margin-left:160px;
+  font-size:15px;
+  font-weight:bold;
+}
+
+#but{
+  width:250px;
+  background-color:black;
+  color:yellow;
+}
+
+#pg{
+  margin-top:10px;
+}
+
+#limit1{
+  background-color:gainsboro;
+}
+
+#nav-dropdown-dark-example{
+  /* border:2px solid red; */
+  width:100px;
+}
+
+#dropdown-basic{
+  /* border:2px solid red; */
+  width:60px;
+}
+#lab22{
+  margin-left:210px;
+  margin-top: 10px;
+}
+
+#select{
+  width:90px;
+  margin-top: -39px;
+  background-color:gainsboro;
+}
+
+/* footer */
+
+.footer1 ul li{
+  display:inline-block;
+  /* padding-left:10px; */
+  /* margin: 20px; */
+  padding-right:50px;
+  margin-left: -40px;
+
+}
+
+.footer1 ul li:hover{
+  color: yellow;
+}
+.footer1 ul {
+ 
+  /* padding-left:10px; */
+  margin-left: 5px;
+  margin-top:10px;
+ 
+}
+
+#butt{
+  margin-left:300px;
+  width:300px;
+  color:rgb(255, 208, 0);
+  margin-top:50px;
+
+}
+
+.limit1 ul li{
+  color:black;
+}
+/* footer1 */
+#ai{
+  padding-right: 700px;
+}
+#ai1{
+  padding-left: 20px;
+}
+.table1{
+  overflow-y:scroll;
+ display:block;
+ height: 340px;
+}
+
+.table1 tr {
+  height: 5px;
+  overflow-y: scroll;
+}
+
+.table1 th{
+  padding:12px;
+}
+
+
+
+#md{
+  font-size:16px;
+  padding:0px;
+  margin-top: 15px;
+  margin-left: -50px;
+  text-align:left;
+  background-color:white;
+  color:black;
+  
+
+
+}
+#md:hover{
+  color:red;
+}
+#md2:hover{
+  color:red;
+}
+#md2{
+ 
+  font-size:16px;
+  padding: 0px;
+  margin-top: 15px;
+  margin-left: 13px;
+  margin-right: 3px;
+  text-align:left;
+  background-color:white;
+  color:black;
+}
+/* #md3{
+  font-size:14px;
+  padding:0px;
+  margin-top: 20px;
+  margin-left: 10px;
+  text-align:left;
+  background-color:white;
+  color:black;
+  font-weight:bold;
+}
+#md4{
+  font-size:14px;
+  padding:0px;
+  margin-top: 20px;
+  margin-left: 4px;
+  text-align:left;
+  background-color:white;
+  color:black;
+  font-weight:bold;
+}
+
+#md5{
+  font-size:14px;
+  padding:0px;
+  margin-top: 20px;
+  margin-left: 4px;
+  text-align:left;
+  background-color:white;
+  color:black;
+  font-weight:bold;
+}
+ */
+ .divide  {
+   width:250px;
+  
+ }
+ .divide ul li{
+display:inline-block;
+padding:8px;
+ }
+ .divide ul li:hover{
+ color:red;
+   }
+
+   .nav-dropdown-dark-example{
+     padding:0px;
+     margin-top: 2000px;
+     border:2px solid black;
+     background-color:white; 
+    font-weight:bold;  }
+.app4div{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;
+  flex-wrap:wrap;
+
+}
+.app4div1{
+  width:130px;
+  /* border:2px solid blue; */
+  margin-top: 20px;
+  font-size: 15px;
+  /* padding:10px; */
+  margin-left: 10px;
+ 
+}
+.app4div span{
+  margin-top: 30px;
+}
+#d6{
+  margin-top: -4px;
+}
+
+.class{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  width:210px;
+  
+ 
+  /* justify-content: space-between; */
+  margin-top:50px;
+
+}
+.class1{
+  width:80px;
+  /* border:2px solid black; */
+  margin:5px;
+  font-size: 14px;
+  
+
+}
+
+.clas Button{
+  background-color: green;
+  margin-left: 230px;
+  margin-top: -200px;
+  height: 30px;
+  width:79px;
+}
+.clas1 Button{
+  background-color: red;
+  margin-left: 230px;
+  margin-top: -170px;
+  height: 30px;
+}
